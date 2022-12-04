@@ -1,0 +1,87 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.star {
+  width: 50px;
+  height: 50px;
+  
+}
+
+.profilePic {
+  border-radius: 10%;
+  width: 40em;
+}
+
+@media screen and (max-width: 800px) {
+ .profilePic {
+    width: 10em;
+ }
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #b8c6e0;
+}
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#ul-coin li:before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-image: url('https://cdn.glitch.global/88ba1a71-f3c3-44f6-add9-dd376ab1b9b9/coin2.gif?v=1660621805314');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+}
+
+#ul-run li:before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-image: url('https://cdn.glitch.global/88ba1a71-f3c3-44f6-add9-dd376ab1b9b9/sonic-run.gif?v=1660621872487');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+}
+
+#ul-gamepad li:before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-image: url('https://cdn.glitch.global/88ba1a71-f3c3-44f6-add9-dd376ab1b9b9/gamepad.gif?v=1660622199968');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+}
+
+#ul-water li:before {
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-image: url('https://cdn.glitch.global/88ba1a71-f3c3-44f6-add9-dd376ab1b9b9/water.gif?v=1660624301061');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -35px;
+}
