@@ -1,6 +1,6 @@
 # fintech-devops-demo
 
-docker run -d -p 8080:80 arun213/fintech-devops-demo
+docker run --pull=always -d -p 8080:80 arun213/fintech-devops-demo
 
 docker rm -f $(docker ps -a -q)
 
