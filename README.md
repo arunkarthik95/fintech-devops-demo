@@ -7,3 +7,5 @@ This runs a static site, for Sonic's dating profile. GitHub actions have been se
 To kill containers: docker rm -f $(docker ps -a -q)
 
 GitHub Action from: https://github.com/marketplace/actions/build-and-push-docker-images
+
+DockerHub repository: https://hub.docker.com/repository/docker/arun213/fintech-devops-demo
