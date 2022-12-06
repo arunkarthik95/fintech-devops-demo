@@ -62,14 +62,12 @@ html {
 }
 
 .likeContainer{
-  background-color: #47ff72;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 5%;
 }
 
 .dislikeContainer{
-  background-color: #4b8ef2;
   box-sizing: border-box;
   padding: 10px;
   border-radius: 5%;
